@@ -32,6 +32,13 @@ img.bg {
     }
   }
 
+  @media only screen and (min-device-width: 480px){
+    img.bg {
+        left: 50%;
+        margin-left: -512px;   
+      } 
+  }
+
 .button {
     margin: 0;
     position: absolute;
