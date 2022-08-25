@@ -1,0 +1,50 @@
+body{
+    background: "./images/bg_6.jpg" no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    /*background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;*/
+}
+
+.button {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    right: 45%;
+    transform: translate(20%, -50%);
+}
+
+/*.button {
+    font-family: Verdana, Arial, Tahoma, Serif;
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input {
+    text-align: center;
+}
+
+.centered-element {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }*/
+
+.headline {
+    font-family: Verdana, Arial, Tahoma, Serif;
+    display: inline-block;
+    position: relative;
+    top: 37%;
+    left: 30%;
+    justify-content: center;
+    color: rbg(217, 30, 145);
+    text-align: center;
+}
