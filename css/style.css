@@ -25,9 +25,11 @@ img.bg {
     left: 0;
   }
   
-  @media screen and (max-width: 1024px) { 
-      
-    }
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
   }
 
   @media only screen and (min-device-width: 480px){
