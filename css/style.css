@@ -25,12 +25,12 @@ img.bg {
     left: 0;
   }
   
-  @media only screen 
+  /* @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-  }
+  } */
 
   /* @media only screen and (min-device-width: 480px){
     img.bg {
